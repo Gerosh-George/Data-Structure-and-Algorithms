@@ -30,7 +30,8 @@ Output:
 
 ![image](https://user-images.githubusercontent.com/62696039/99898781-258dd480-2cca-11eb-8458-f0e442ae7d36.png)
 <hr>
-### C Implemenetation:
+
+### C Implementation:
 
 --> <u> [stack.c](stack.c) </u>
 
@@ -48,7 +49,7 @@ Output:
 
 <hr>
 
-#### Solving Postfix expression using stacks:
+### Solving Postfix expression using stacks:
 
 This is one of the application of stacks.
 
