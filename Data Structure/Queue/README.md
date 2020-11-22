@@ -44,7 +44,7 @@ Output:
 
 ### Implementation in C (printer problem):
 
-<u> [printer.c](printer.c) </u>
+--> <u> [printer.c](printer.c) </u>
 
 One of the application of Queue is in scheduling of printer. When printer is in use other people needs to wait in queue. This scenario is stimulated using Queue DS in this program using C language.
 
