@@ -11,6 +11,7 @@ Stack DS literally means a stack only 😂 like consider a simple example of boo
     - Pop: O(1)
     - Peek: O(1)
 <hr>
+
 ### C++ Implementation:
 
 --> <u> [stack.cpp](stack.cpp) </u>
@@ -28,6 +29,35 @@ Here we are creating a new dynamic array whenever the size of stack becomes equa
 Output: 
 
 ![image](https://user-images.githubusercontent.com/62696039/99898781-258dd480-2cca-11eb-8458-f0e442ae7d36.png)
+<hr>
+### C Implemenetation:
 
+--> <u> [stack.c](stack.c) </u>
 
+Here we have used an array of fixed length (10) which will behave as a stack,thus it's important to check the boundary conditions like Stack Overflow and Undeflow in this scenario.
+
+Functions implemented are:
+- push()
+- pop()
+- peek()
+- print()
+
+Output:
+
+![image](https://user-images.githubusercontent.com/62696039/99899425-558ba680-2ccf-11eb-8d0d-fb557fd29970.png)
+
+<hr>
+
+#### Solving Postfix expression using stacks:
+
+This is one of the application of stacks.
+
+--> <u> [postfix.c](postfix.c) </u>
+
+Output:
+![image](https://user-images.githubusercontent.com/62696039/99899608-aa7bec80-2cd0-11eb-81f8-3835c5bc8c06.png)
+
+Here ` 5 10 + 6 * 20 - ` is calculated by the program which is actually the postfix expression of ` (5+10)*6-20=100 `.
+
+[Learn more about postfix, infix and prefix expressions](https://www.tutorialspoint.com/data_structures_algorithms/expression_parsing.htm)
 
