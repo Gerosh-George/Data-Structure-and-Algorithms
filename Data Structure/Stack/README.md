@@ -56,6 +56,7 @@ This is one of the application of stacks.
 --> <u> [postfix.c](postfix.c) </u>
 
 Output:
+
 ![image](https://user-images.githubusercontent.com/62696039/99899608-aa7bec80-2cd0-11eb-81f8-3835c5bc8c06.png)
 
 Here ` 5 10 + 6 * 20 - ` is calculated by the program which is actually the postfix expression of ` (5+10)*6-20=100 `.
