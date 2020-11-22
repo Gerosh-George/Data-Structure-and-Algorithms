@@ -7,6 +7,9 @@ You can visualise a queue data structure like a queue of people standing in fron
 - Pushing in Queue is known as Enqueue
 - Popping in Queue is known as Dequeue
 
+![image](https://user-images.githubusercontent.com/62696039/99903423-423a0480-2cea-11eb-918a-a607dac869b3.png)
+
+
 There are 4 main variations of Queue:
 
 - Normal Queue
@@ -52,6 +55,6 @@ Output:
 
 <img width="213" alt="Capture" src="https://user-images.githubusercontent.com/62696039/99901859-b7eca300-2cdf-11eb-9d3a-b96aa7059dce.PNG">
 
-Here #12 was printing so #15 was in line. Afterwards when #13 came #15 was in printing state and #13 had to be in the line.
+Here #12 was printing so #15 was in line. Afterwards when #13 came #15 was in printing state and #13 was put as next in the schedule. 
 
 <hr>
