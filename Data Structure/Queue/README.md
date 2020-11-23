@@ -26,7 +26,7 @@ Auxiliary Space: O(N)
 
 ### Implementation in C++:
 
---> <u> [queue.cpp](queue.cpp) </u>
+--> <u> [Queue.cpp](Queue.cpp) </u>
 
 Generic programming approach is used to implement the Queue DS. This is a base implementation of a normal Queue.
 
