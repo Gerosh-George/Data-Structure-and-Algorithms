@@ -115,3 +115,46 @@ Output:
 <hr>
 
 ### Priority Queue
+
+Priority Queue is a special type of queue which pops/removes an element according to the priority of that element with respect to others present in it. 
+
+Priority Queue can be implemented using arrays or linklist but then time complexity becomes O(n) and extra additional space is also needed for array rearrangement.
+
+The ideal way of implementing Priority Queue is using another underlying DS known as Heaps, more specifically Min Binary Heap  or Max Binary Heap.
+
+![image](https://user-images.githubusercontent.com/62696039/99970836-65d07e00-2dc2-11eb-85f6-f051b4b71fa3.png)
+
+Here max element is given priority so max heap keeps the largest element at the root of the heap so that it can be popped out when poll() is called on it.
+
+![image](https://user-images.githubusercontent.com/62696039/99971435-26566180-2dc3-11eb-8a65-c716643d9f12.png)
+
+These are two types of heap invariant.
+
+[ poll() pops out the element with the appropriate priority ]
+
+Time Complexity (Min/Max Binary Heap Implementation ) :
+- BuildPQ(): O(n)  [ Min binary heap construction ]
+- add(): O(log(n))
+- poll(): O(log(n))
+- contains(): O(1)
+- peek(): O(1)
+- remove(): O(log(n))
+- len(): O(1)
+- isEmpty(): O(1)
+
+
+### Implementation in C++:
+
+Implementation of priority queue in cpp is little tricky. 
+So watch this [youtube tutorial](https://www.youtube.com/watch?v=RBSGKlAvoiM&t=5492s) which will help you too understand how everything ties up.
+
+For this implementation you will need know a little about the [STL](https://www.geeksforgeeks.org/the-c-standard-template-library-stl/) of C++ and heap properties.
+
+Map container is used which acts like hash table to help optimise the operations like remove() and contains().
+
+--> <u> [Priority Queue.cpp](PriorityQueue.cpp) </u>
+
+
+![image](https://user-images.githubusercontent.com/62696039/99972135-2a36b380-2dc4-11eb-9be7-25d2f203bc59.png)
+
+<hr>
