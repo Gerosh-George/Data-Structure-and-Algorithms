@@ -122,7 +122,8 @@ Priority Queue can be implemented using arrays or linklist but then time complex
 
 The ideal way of implementing Priority Queue is using another underlying DS known as Heaps, more specifically Min Binary Heap  or Max Binary Heap.
 
-![image](https://user-images.githubusercontent.com/62696039/99970836-65d07e00-2dc2-11eb-85f6-f051b4b71fa3.png)
+![PQ](https://user-images.githubusercontent.com/62696039/99975317-155c1f00-2dc8-11eb-96ec-79759029d827.jpg)
+
 
 Here max element is given priority so max heap keeps the largest element at the root of the heap so that it can be popped out when poll() is called on it.
 
@@ -158,3 +159,4 @@ Map container is used which acts like hash table to help optimise the operations
 ![image](https://user-images.githubusercontent.com/62696039/99972135-2a36b380-2dc4-11eb-9be7-25d2f203bc59.png)
 
 <hr>
+
