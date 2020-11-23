@@ -9,7 +9,6 @@ You can visualise a queue data structure like a queue of people standing in fron
 
 ![image](https://user-images.githubusercontent.com/62696039/99903423-423a0480-2cea-11eb-918a-a607dac869b3.png)
 
-
 There are 4 main variations of Queue:
 
 - Normal Queue
@@ -55,6 +54,64 @@ Output:
 
 <img width="213" alt="Capture" src="https://user-images.githubusercontent.com/62696039/99901859-b7eca300-2cdf-11eb-9d3a-b96aa7059dce.PNG">
 
-Here #12 was printing so #15 was in line. Afterwards when #13 came #15 was in printing state and #13 was put as next in the schedule. 
+Here #12 was printing so #15 was in line. Afterwards when #13 came #15 was in printing state and #13 was put as next in the schedule.
 
 <hr>
+
+### Deque (Double Ended Queue)
+
+Deque is a special type of queue in which the insertion and deletion can take place at both the ends of the queue.
+
+Its like a combination of stack and queue DS. Deque data structure supports clockwise and anticlockwise rotations in O(1) time which can be useful in certain applications.
+
+![image](https://user-images.githubusercontent.com/62696039/99929280-a4d6e300-2d72-11eb-87d3-748e036f70fc.png)
+
+#### Implementation in C:
+
+---> <u> [deque.c](deque.c) </u>
+
+In this program, Deque is implemented using a static array of fixed size (10) which has a global scope. The extra functions that deque has are:
+
+- enqueue_front()
+- enqueue_rear()
+- dequeue_front()
+- dequeue_rear()
+- get_front()
+- get_rear()
+
+Time complexity of all these operations are O(1) using arrays.
+
+Output:
+
+![image](https://user-images.githubusercontent.com/62696039/99929162-28dc9b00-2d72-11eb-8319-ebce4e2b2844.png)
+
+<hr>
+
+### Circular Queue
+
+The simple queue has a limitation that it can't fill the slot in the front of queue when some of the elements are dequeued. This is overcomed by using a circualr queue instead. It is pretty simple just assume the linear array is now circular in shape and implement the properties of a normal queue.
+
+![image](https://user-images.githubusercontent.com/62696039/99932097-1025b280-2d7d-11eb-80c8-524e66667cb7.png)
+
+### Implementation in C:
+
+--> <u>[Circular Queue.c](circular_queue.c) </u>
+
+In this implementation instead of declaring a global array we have used `struct Queue` to make an object/structure of the queue.
+
+[Learn more about struct](https://www.geeksforgeeks.org/structures-c/)
+
+The main logic of circular queue is:
+
+rear = (rear + 1) % SIZE; <br>
+front = (front + 1) % SIZE;
+
+These two statements gives the array a circular nature.
+
+Output:
+
+![image](https://user-images.githubusercontent.com/62696039/99931409-6ba27100-2d7a-11eb-88a7-1db2e6abd760.png)
+
+<hr>
+
+### Priority Queue
