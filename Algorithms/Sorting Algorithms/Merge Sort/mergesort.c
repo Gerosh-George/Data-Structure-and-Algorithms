@@ -1,8 +1,9 @@
 #include <stdio.h>
 
-int arr_size = 8;
-int a[8] = {40, 42, 44, 43, 46, 41, 47, 45};
+int arr_size = 10;
+int a[10] = {40, 42, 44, 43, 46, 41, 47, 45, 39, 50};
 
+// makes the changes in original array
 void copy(int b[], int lb, int ub)
 {
     int k = 0;
@@ -21,12 +22,14 @@ void display()
     printf("\n");
 }
 
+//combines the subset array in sorted order
 void merge(int a[], int lb, int mid, int ub)
 {
     int b[ub - lb + 1];
     int i = lb;
     int k = 0;
     int j = mid + 1;
+
 
     while (i <= mid && j <= ub)
     {
@@ -42,8 +45,11 @@ void merge(int a[], int lb, int mid, int ub)
         }
         k++;
     }
+
+
     if (i > mid)
-    {
+    {   
+        //remaining elements in j
         while (j <= ub)
         {
             b[k] = a[j];
@@ -52,7 +58,8 @@ void merge(int a[], int lb, int mid, int ub)
         }
     }
     else
-    {
+    {   
+        //remaining elements in i
         while (i <= mid)
         {
             b[k] = a[i];
@@ -66,6 +73,7 @@ void merge(int a[], int lb, int mid, int ub)
     display();
 }
 
+//breaks the main array into smaller subsets
 void mergesort(int a[], int lb, int ub)
 {
     if (lb < ub)
@@ -82,8 +90,9 @@ int main()
 {
     printf("original array: ");
     display();
-    printf("\nProcess Start....");
-    mergesort(a, 0, 10);
+    printf("\nProcess Start....\n");
+    printf("[index range which got sorted in that iteration]-->.....\n");
+    mergesort(a, 0, 9);
     printf("Process End....\n\n");
     printf("Sorted array: ");
     display();

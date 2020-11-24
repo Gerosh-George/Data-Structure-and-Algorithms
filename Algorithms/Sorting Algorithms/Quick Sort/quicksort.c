@@ -12,6 +12,7 @@ void display()
     printf("\n");
 }
 
+//swapping two elements in the array
 void swap(int a[], int i, int j)
 {
     int temp = a[i];
@@ -19,6 +20,9 @@ void swap(int a[], int i, int j)
     a[j] = temp;
 }
 
+// choses the proper index for pivot element so that
+// all elements to the left of it are smaller
+// and to the right are larger
 int partition(int a[], int lb, int ub)
 {
     int pivot = lb;
@@ -60,8 +64,10 @@ int main()
 {
     printf("Original array: ");
     display();
-    printf("\nProcess Start....");
+    printf("\nProcess Start....\n");
+    printf("[ Index of pivot element placed properly ]-->...]\n");
     quicksort(a, 0, 10);
     printf("Process End....\n\n");
+    printf("Sorted Array: ");
     display();
 }
