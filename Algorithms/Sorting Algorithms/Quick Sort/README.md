@@ -1,6 +1,6 @@
 # Quick Sort
 
-Quick Sort ia another advanced sorting algorithm that uses the approach of divide and conquer.
+Quick Sort is another advanced sorting algorithm that uses the approach of divide and conquer.
 
 It uses a technique known as `partition` and so sometimes also known as partition sort. It picks an element as pivot and partitions the given array around the picked pivot.
 
