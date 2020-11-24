@@ -10,7 +10,7 @@ Above GIF shows how the Kruskal's Algo works.
 
 ### Implementation in C:
 
---> <u>[Kruskal's Algo.c](kruskals_MST.c)</u>
+--> <u>[Kruskal's Algo.c](Kruskals_MST.c)</u>
 
 In this implementation we have used Adjacency List to represent the graph. Also to check for cycles while adding the edge to the spanning tree we have used [Union-Find algorithm](https://www.geeksforgeeks.org/union-find/) which actually is working of Disjoint Set Data structure.
 

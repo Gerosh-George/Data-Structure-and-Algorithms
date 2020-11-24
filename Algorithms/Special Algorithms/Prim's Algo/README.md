@@ -14,7 +14,7 @@ Above image shows how the Prims' Algorithm works.
 
 ### Implementation in C:
 
---> <u>[Prim's Algo.c](prims_MST.c)</u>
+--> <u>[Prim's Algo.c](Prims_MST.c)</u>
 
 <br>
 
