@@ -6,6 +6,7 @@
 
 int cities[V] = {'A', 'B', 'C', 'D', 'E', 'F'};
 
+//pulls out the next city to visit which has smallest distance from source city.
 int min_dist(bool visited[], int short_dist[])
 {
     int min = INT_MAX;
@@ -119,7 +120,7 @@ void dijkstra(int graph[V][V], int src, int dest)
 
 int main()
 {
-
+    //used adjacency matrix to represent the graph
     int graph[V][V] = {{0, 73, 0, 18, 0, 0},
                        {73, 0, 22, 0, 21, 0},
                        {0, 22, 0, 11, 44, 44},

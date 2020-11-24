@@ -132,6 +132,7 @@ int main()
     int V = 6;
     int E = 9;
 
+    //used  Adjacency List to represent the graph
     struct Graph *graph = createGraph(V, E);
 
     graph->edge[0].src = 0;
