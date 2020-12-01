@@ -8,7 +8,7 @@ The algorithm maintains two subarrays in a given array.<br>
 
 In every iteration of selection sort, the minimum element (considering ascending order) from the unsorted subarray is picked and moved to the sorted subarray.
 
-Time Complexity: θ(n<sup>2</sup>) in all 3 cases (worst,average and best)
+Time Complexity: Best Case: Ω(n) Average Case: θ(n<sup>2</sup>) Worst Case: O(n<sup>2</sup>)
 
 <br><hr>
 
