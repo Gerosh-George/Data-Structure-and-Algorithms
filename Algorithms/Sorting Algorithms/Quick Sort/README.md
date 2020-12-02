@@ -2,13 +2,14 @@
 
 Quick Sort is another advanced sorting algorithm that uses the approach of divide and conquer.
 
-It uses a technique known as `partition` and so sometimes also known as partition sort. It picks an element as pivot and partitions the given array around the picked pivot.
+It uses a technique known as `partition` and so sometimes also known as partition sort. It picks a random element as a "pivot" and then swaps values in the array such that the elements less than pivot appear before elements greater than pivot. This gives a "partial sort:'Then it recursively sorts the left and right sides using a similar process.
 
-This pivot element can be taken in different manner like the first element, or the last or even random or the median element. 
+This pivot element can be taken in different manner like the first element, or the last or even random or the median element.
 
 The key function in this Algo is partition() function which places the pivot element in its perfect position.
 
-Time Complexity: 
+Time Complexity:
+
 - Worst Case: O(n^2)
 - Best Case: O(n log(n))
 
@@ -17,6 +18,7 @@ Time Complexity:
 ![PleasantCloseEyelashpitviper-size_restricted](https://user-images.githubusercontent.com/62696039/100057903-5ac32f80-2e4e-11eb-96eb-ca8f4674bfbc.gif)
 
 Above GIF shows how a Quick Sort Algo works.
+
 <hr>
 
 ### Implementation in C:
@@ -28,5 +30,3 @@ In this implementation, pivot element is taken as the first element in subset ar
 OUTPUT:
 
 ![image](https://user-images.githubusercontent.com/62696039/100058470-56e3dd00-2e4f-11eb-88bb-1745b57b258a.png)
-
-
