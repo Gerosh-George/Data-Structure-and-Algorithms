@@ -18,7 +18,7 @@ And according to the root node value, heap can of two types:
 - Building heap from array (naive): O(n\*log(n))
 - Building heap from array by heapify process: O(n)
 
-The main use Heap DS is in [Priority Queue](https://github.com/Gerosh-George/Data-Structure-and-Algorithms/blob/master/Data%20Structure/Queue/PriorityQueue.cpp) and [Heap Sort](https://github.com/Gerosh-George/Data-Structure-and-Algorithms/blob/master/Algorithms/Heap%20Sort).
+The main use Heap DS is in [Priority Queue](https://github.com/Gerosh-George/Data-Structure-and-Algorithms/blob/master/Data%20Structure/Queue/PriorityQueue.cpp) and [Heap Sort](https://github.com/Gerosh-George/Data-Structure-and-Algorithms/tree/master/Algorithms/Sorting%20Algorithms/Heap%20Sort).
 
 ### Implementation in cpp:
 
