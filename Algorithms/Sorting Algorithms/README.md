@@ -6,8 +6,9 @@ This directory contains:
 - Bubble Sort
 - Sequential Sort
 - Insertion Sort
-- Merge Sort (advance level)
-- Quick Sort (advance level)
+- Merge Sort (intermediate level)
+- Quick Sort (intermediate level)
+- Heap Sort (advance level)
 
 As and when new sorting algorithms will be implemented by us, it will be pushed here.
 
