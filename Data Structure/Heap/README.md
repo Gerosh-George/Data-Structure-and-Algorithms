@@ -58,7 +58,7 @@ This GIF shows how an element is removed which is always the root node. This pro
 
 ![cd0d037dc0ca0e2ef1e51f5f785607c7](https://user-images.githubusercontent.com/62696039/100840644-342f7500-349c-11eb-9176-86f2a8027075.gif)
 
-Above GIF depicts how heapify process works.
+Above GIF depicts how heapify process works for a Min Heap.
 
 <hr>
 
