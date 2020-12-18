@@ -7,7 +7,7 @@ These properties needs to maintained for a binary tree to be BST in nature:
 - Parent node value is always greater than equal to its left child node.
 - Parent node value is always lesser than equal to its rigt child node.
 
-<div style="text-align: center;">OR</div>
+  <div style="text-align: center;">OR</div>
 
 - Each and every node's value in a BST will be greater than all the values present in the left sub tree and lesser than every value present in the right sub tree.
 
